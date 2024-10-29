@@ -1,6 +1,6 @@
 import discord,os, asyncio
 from discord import app_commands
-
+ # Unfinished draft [1] for https://exo-devs.tech/ unix compatibility
 client = commands.Bot(
     command_prefix = commands.when_mentioned,
     intents = discord.Intents.all()
@@ -24,11 +24,6 @@ async def notification(interaction: discord.Interaction, channel: discord.VoiceC
         color = 0x000000
     )
     timestampEmbed.set_footer(text=f"Requested by {interaction.user.name}")
-
-class AModal()
-
-
-
 
 
 if __name__ == '__main__':
